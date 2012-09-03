@@ -1,3 +1,16 @@
+
+This fork of ChromePhp adds the possibility to add a prefix before backtraces.
+
+####usage
+
+`ChromePhp::getInstance()->addSetting(ChromePhp::BACKTRACE_PREXIX,"PHP file: ");`
+
+####will trace someting like
+
+`PHP file:  /home/david/public_html/mvc/_system/Boot.php @ line : 29 `
+
+
+
 version 3.0
 This class requires PHP 5 or later.
 
